@@ -1,10 +1,8 @@
-import Layer2 from "./components/Layer2";
-import Parent from "./components/Parent";
+import EventHandler from "./components/EventHandler";
 function App() {
   return (
     <>
-      <Layer2 />
-      <Parent />
+      <EventHandler></EventHandler>
     </>
   );
 }
